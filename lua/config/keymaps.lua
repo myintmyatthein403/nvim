@@ -44,3 +44,6 @@ vim.keymap.set(
   "<cmd>lua require('goto-preview').goto_preview_references()<CR>",
   { noremap = true, silent = true, desc = "" }
 )
+
+vim.keymap.set("n", "<leader>k", "<cmd>LazyDocker<CR>", { desc = "Toggle LazyDocker", noremap = true, silent = true })
+
