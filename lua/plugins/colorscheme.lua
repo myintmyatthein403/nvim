@@ -103,4 +103,10 @@ return {
       vim.cmd.colorscheme("gruvbox-material")
     end,
   },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
