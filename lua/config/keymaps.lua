@@ -46,4 +46,11 @@ vim.keymap.set(
 )
 
 vim.keymap.set("n", "<leader>k", "<cmd>LazyDocker<CR>", { desc = "Toggle LazyDocker", noremap = true, silent = true })
+vim.keymap.set(
+  "n",
+  "<leader>tn",
+  "<cmd>ToggleLineNumbers<CR>",
+  { desc = "Toggle LineNumbers", noremap = true, silent = true }
+)
 
+vim.keymap.set("n", "<leader>U", "<cmd>lua require('undotree').toggle()<cr>")
