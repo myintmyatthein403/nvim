@@ -35,6 +35,7 @@ require("lazy").setup({
   },
   install = { colorscheme = { "tokyonight", "habamax", "cyberdream" } },
   checker = { enabled = true }, -- automatically check for plugin updates
+  wrapper = { enabled = true }, -- automatically wrap plugins in packer's startup function
   performance = {
     rtp = {
       -- disable some rtp plugins
